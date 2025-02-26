@@ -19,6 +19,7 @@ function chunk(array, size = 1) {
     return []
   }
   let index = 0
+  let indexnew = 1
   let resIndex = 0
   const result = new Array(Math.ceil(length / size))
 
